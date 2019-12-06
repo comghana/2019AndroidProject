@@ -1,0 +1,7 @@
+- 화면 구성
+1. MainActivity
+2. SecondActivity
+3. 데이터구성: 사진1개, 컨텐츠 영역 5개
+4. Listview Cell 사진 영역, 버튼 영역(cell영역, row.xml영역)
+	- 이벤트 핸들러 등록 및 처리
+
