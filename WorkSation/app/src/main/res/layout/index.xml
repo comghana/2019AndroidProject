@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/asia"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/asia"/>
+
+            <ImageButton
+                android:id="@+id/eu"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/eu" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/n_a"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/n_a"/>
+
+            <ImageButton
+                android:id="@+id/s_a"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/s_a" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/africa"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/africa"/>
+
+            <ImageButton
+                android:id="@+id/oceania"
+                android:layout_width="109dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ocea" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
