@@ -53,7 +53,7 @@ public class ViewCity extends AppCompatActivity {
         else if(title.equals("라바트")) imageview.setImageDrawable((getResources().getDrawable(R.drawable.labate)));
         else if(title.equals("발리")) imageview.setImageDrawable((getResources().getDrawable(R.drawable.bali)));
         else if(title.equals("웰링턴")) imageview.setImageDrawable((getResources().getDrawable(R.drawable.weling)));
-        else if(title.equals("켄버라")) imageview.setImageDrawable((getResources().getDrawable(R.drawable.can)));
+        else if(title.equals("캔버라")) imageview.setImageDrawable((getResources().getDrawable(R.drawable.can)));
 
         citytitle.setText(title);
         citycoun.setText(ie.getStringExtra("country"));

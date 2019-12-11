@@ -40,6 +40,7 @@ public class Index extends AppCompatActivity {
 
         eu.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
+                Toast.makeText(Index.this, "EUROPE", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ListViewSet.class);
                 intent.putExtra("continent", "EUROPE");
                 startActivity(intent);
@@ -48,6 +49,7 @@ public class Index extends AppCompatActivity {
 
         africa.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
+                Toast.makeText(Index.this, "AFRICA", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ListViewSet.class);
                 intent.putExtra("continent", "AFRICA");
                 startActivity(intent);
@@ -56,6 +58,7 @@ public class Index extends AppCompatActivity {
 
         oceania.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
+                Toast.makeText(Index.this, "OCEANIA", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ListViewSet.class);
                 intent.putExtra("continent", "OCEANIA");
                 startActivity(intent);
@@ -64,6 +67,7 @@ public class Index extends AppCompatActivity {
 
         n_a.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
+                Toast.makeText(Index.this, "NORTH AMERICA", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ListViewSet.class);
                 intent.putExtra("continent", "NORTH AMERICA");
                 startActivity(intent);
@@ -72,6 +76,7 @@ public class Index extends AppCompatActivity {
 
         s_a.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
+                Toast.makeText(Index.this, "SOUTH AMERICA", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ListViewSet.class);
                 intent.putExtra("continent", "SOUTH AMERICA");
                 startActivity(intent);

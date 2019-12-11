@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Hone");
+        setTitle("Honme");
         btnStart = (ImageButton) findViewById(R.id.startButton);
 
         btnStart.setOnClickListener( new View.OnClickListener() {
