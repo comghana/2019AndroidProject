@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Index" android:label="Index 액티비티" />
+        <activity android:name=".ListViewSet" android:label="ListViewSet 액티비티" />
+        <activity android:name=".ViewCity" android:label="ViewCity 액티비티" />
     </application>
 
 </manifest>
